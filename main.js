@@ -84,3 +84,9 @@ function idInvalidCardCompanies(invalids){
 let cardCompanies = idInvalidCardCompanies(invalids);
 
 console.log(cardCompanies);
+
+// convert string input to number array
+let text = "12345678910111213141516";   // example input
+const myArray = text.split("").map(digit => {
+    return parseInt(digit, 10);
+});
